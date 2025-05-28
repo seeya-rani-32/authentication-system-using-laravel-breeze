@@ -1,0 +1,39 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.*
+
+# Laravel specific
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+/storage/*.log
+/storage/framework/*
+/bootstrap/cache/
+
+# Build tools
+/public/build
+/public/hot
+
+# IDEs & editors
+.idea/
+.vscode/
+*.sublime*
+
+# Logs
+*.log
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# PHPUnit
+.phpunit.result.cache
+.phpunit.cache
+
+# Misc
+*.bak
+*.tmp
